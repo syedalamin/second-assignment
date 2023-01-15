@@ -228,6 +228,7 @@ footer {
 
 }
 
+
 .facts-card {
     border: 1px solid #FF900E;
     display: flex;
@@ -236,8 +237,15 @@ footer {
     height: 200px;
     border-radius: 8px;
     justify-content: center;
+   transition: transform 1s ease-in-out 0.2s;
 
 }
+
+.facts-card:hover {
+    transform: translate(0px, 50px);
+}
+
+
 
 .facts-image-title {
     color: #424242;
@@ -251,6 +259,7 @@ footer {
 }
 
 /* our-sponsors start  */
+
 .our-sponsors {
     text-align: center;
 
@@ -288,17 +297,8 @@ footer {
 .footer-text-sub-title {
     padding: 30px 0px;
     color: #424242;
+    font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
